@@ -1,0 +1,513 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 6005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/84865/Desktop/gameduaxe/gameduaxe
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54912
+Successfully changed project path to: C:/Users/84865/Desktop/gameduaxe/gameduaxe
+C:/Users/84865/Desktop/gameduaxe/gameduaxe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10196] Host "[IP] 192.168.154.1 [Port] 0 [Flags] 2 [Guid] 1637070996 [EditorId] 1637070996 [Version] 1048832 [Id] WindowsEditor(7,k) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10196] Host "[IP] 192.168.154.1 [Port] 0 [Flags] 2 [Guid] 1637070996 [EditorId] 1637070996 [Version] 1048832 [Id] WindowsEditor(7,k) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 26.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/84865/Desktop/gameduaxe/gameduaxe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3002 MB
+    Driver:   31.0.12044.56000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006219 seconds.
+- Loaded All Assemblies, in  0.457 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.136 seconds
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1933ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (874ms)
+		LoadAssemblies (640ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (130.3 KB). Loaded Objects now: 3710.
+Memory consumption went from 126.4 MB to 126.2 MB.
+Total: 4.656300 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.132700 ms MarkObjects: 3.242400 ms  DeleteObjects: 0.876900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84440.607494 seconds.
+  path: Assets/DoHoa/DuongDua/lightRed.fbx
+  artifactKey: Guid(55de4516cb640b1408852214b44a469e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/lightRed.fbx using Guid(55de4516cb640b1408852214b44a469e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c16c562e1f4f416a924a5e038c304d2') in 0.236867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/DoHoa/DuongDua/roadCornerLargerBorderInner.fbx
+  artifactKey: Guid(430df519a7542724bb797efec4c244ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCornerLargerBorderInner.fbx using Guid(430df519a7542724bb797efec4c244ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3bc4a43c6186ea356003452bfcf1d9c') in 0.042493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DoHoa/DuongDua/roadBump.fbx
+  artifactKey: Guid(6ee2396a5f0f3f6459243acc2f7131bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadBump.fbx using Guid(6ee2396a5f0f3f6459243acc2f7131bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e02b1f9e0945fdbd74e97c9ab5d9f49') in 0.050841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DoHoa/DuongDua/roadCornerLargerBorder.fbx
+  artifactKey: Guid(d90421506114e354394413d309374215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCornerLargerBorder.fbx using Guid(d90421506114e354394413d309374215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '104a9cf252b06e3537c23525c3815798') in 0.043704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DoHoa/DuongDua/grandStandCovered.fbx
+  artifactKey: Guid(a45f9ca32ba760c4998d60e52bb5e09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/grandStandCovered.fbx using Guid(a45f9ca32ba760c4998d60e52bb5e09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c235f202c5192b70b6dd3f329f61934') in 0.041720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DoHoa/DuongDua/lightPost_exclusive.fbx
+  artifactKey: Guid(4935d26fbafa13946a057b22700c7397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/lightPost_exclusive.fbx using Guid(4935d26fbafa13946a057b22700c7397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e7f09ed762b89bdaa5ea7b981d30eb1') in 0.038862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DoHoa/DuongDua/roadStraightBridge.fbx
+  artifactKey: Guid(9704cf0a388ef524a9a78bfc6664e688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadStraightBridge.fbx using Guid(9704cf0a388ef524a9a78bfc6664e688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47e95666fc649baebe894fd1c270023f') in 0.038383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DoHoa/DuongDua/tentClosedLong.fbx
+  artifactKey: Guid(e6955fbb73f359e4a9ed1fd613bc59bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/tentClosedLong.fbx using Guid(e6955fbb73f359e4a9ed1fd613bc59bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d24451f39e9113319f83c9741d5d5ad') in 0.040024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DoHoa/DuongDua/flagRed.fbx
+  artifactKey: Guid(2b0cdb029f338ad4f9312882f0f474c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/flagRed.fbx using Guid(2b0cdb029f338ad4f9312882f0f474c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0bcef55433d3be285fe6bd0e4082876') in 0.041603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DoHoa/DuongDua/roadCornerSmall.fbx
+  artifactKey: Guid(160b338fcf46e3846bbac5bbf6fdd081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCornerSmall.fbx using Guid(160b338fcf46e3846bbac5bbf6fdd081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '578bbdfc3602fd1d6066414a71aa31d9') in 0.037307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DoHoa/DuongDua/ramp.fbx
+  artifactKey: Guid(9c92a60224537e94587edbfb356bb1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/ramp.fbx using Guid(9c92a60224537e94587edbfb356bb1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3500021dd6d62f3272be92ca6a11de47') in 0.037309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DoHoa/DuongDua/roadStart.fbx
+  artifactKey: Guid(56e0d25a0d02d3a48ade2743255072cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadStart.fbx using Guid(56e0d25a0d02d3a48ade2743255072cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06c3d4f834c26bec49b9e3a8490d4be6') in 0.036178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DoHoa/DuongDua/roadCurvedSplit.fbx
+  artifactKey: Guid(24beb3da46c2138468bb12d185887cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCurvedSplit.fbx using Guid(24beb3da46c2138468bb12d185887cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd61721e2542c99dd1231c02f62b90e1') in 0.035968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DoHoa/DuongDua/grandStandRound.fbx
+  artifactKey: Guid(b025f742a93d1024d8f2665d7aec8588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/grandStandRound.fbx using Guid(b025f742a93d1024d8f2665d7aec8588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56921fdcccb946e60d6a871e6a17d08f') in 0.036438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DoHoa/DuongDua/treeSmall.fbx
+  artifactKey: Guid(ec8ccb0ae7b684b4aa724eb4baa0bf70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/treeSmall.fbx using Guid(ec8ccb0ae7b684b4aa724eb4baa0bf70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '117f25d52d94ac727badbd7e383be7d4') in 0.030553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DoHoa/DuongDua/roadSplitLarger.fbx
+  artifactKey: Guid(e3eb26599ec37f8438ba9a0a71a75e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadSplitLarger.fbx using Guid(e3eb26599ec37f8438ba9a0a71a75e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41815d9f82e785dd2ad96f1d22772639') in 0.037798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DoHoa/DuongDua/overheadRoundColored.fbx
+  artifactKey: Guid(0e48243714f911c4ea1501bc49bcf5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/overheadRoundColored.fbx using Guid(0e48243714f911c4ea1501bc49bcf5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba60c4087c36223ef82a6c450a2f3466') in 0.033739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DoHoa/DuongDua/fenceCurved.fbx
+  artifactKey: Guid(0c50af45b6694c9488fbe6603548d8f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/fenceCurved.fbx using Guid(0c50af45b6694c9488fbe6603548d8f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb7664f7ecd1c991dea0cd5a9c39b5e5') in 0.037718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DoHoa/DuongDua/tentClosed.fbx
+  artifactKey: Guid(4a87489926b4b964d807ae2292b39218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/tentClosed.fbx using Guid(4a87489926b4b964d807ae2292b39218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f2859c5e89e0282669e7d5851a35704') in 0.044567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DoHoa/DuongDua/pitsOfficeRoof.fbx
+  artifactKey: Guid(48d9217054f1e8843b8ef29fe33d3524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/pitsOfficeRoof.fbx using Guid(48d9217054f1e8843b8ef29fe33d3524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3783b5e4716e6401fe977d8901ace073') in 0.042734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DoHoa/DuongDua/radarEquipment.fbx
+  artifactKey: Guid(69a5e4fd7cef55040a570e9fbf67cc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/radarEquipment.fbx using Guid(69a5e4fd7cef55040a570e9fbf67cc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8659eca84979fafbfc5dda0d30f63fd8') in 0.037476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DoHoa/DuongDua/roadSplitSmall.fbx
+  artifactKey: Guid(d54d61ada84219b4c98a02008e337618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadSplitSmall.fbx using Guid(d54d61ada84219b4c98a02008e337618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e681cc0a72797a5aafcf95054790b91') in 0.040763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DoHoa/DuongDua/pitsGarageCorner.fbx
+  artifactKey: Guid(c24a2ba4866cf624e93c48fcf6a1591b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/pitsGarageCorner.fbx using Guid(c24a2ba4866cf624e93c48fcf6a1591b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '629df0d378a205f0a9d51e64eccb4fd2') in 0.046745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DoHoa/DuongDua/camera_exclusive.fbx
+  artifactKey: Guid(45a5073b77338bb4fbac10c018dbf36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/camera_exclusive.fbx using Guid(45a5073b77338bb4fbac10c018dbf36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a79b908dd20c10db7b2e8d5bcb9f708c') in 0.041538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DoHoa/DuongDua/roadStraightLong.fbx
+  artifactKey: Guid(d41625f92e0322a47b54eff99f086d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadStraightLong.fbx using Guid(d41625f92e0322a47b54eff99f086d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '491e76c49914fd34db65ff312b543ed7') in 0.040986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DoHoa/DuongDua/pylon.fbx
+  artifactKey: Guid(8452610608b428741a59e948d6efacb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/pylon.fbx using Guid(8452610608b428741a59e948d6efacb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a335562c6d47fc831bf40b19cda287f') in 0.029923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DoHoa/DuongDua/roadStraightSkew.fbx
+  artifactKey: Guid(d27b5f155d0825849a90ce25ad0bcc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadStraightSkew.fbx using Guid(d27b5f155d0825849a90ce25ad0bcc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f41211efe54070cb88a6a5946de013c') in 0.037080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DoHoa/DuongDua/grandStandAwning.fbx
+  artifactKey: Guid(a341922cd8d657e44a2db1f95a4a18d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/grandStandAwning.fbx using Guid(a341922cd8d657e44a2db1f95a4a18d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fab20b898cd40f0ce6238e1bedc3b71e') in 0.039223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/DoHoa/DuongDua/billboardLower.fbx
+  artifactKey: Guid(1ed5e6167e24f784ab3eb7b0abd403b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/billboardLower.fbx using Guid(1ed5e6167e24f784ab3eb7b0abd403b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1cf009a31ca270117ac00c9d4562e89') in 0.042324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DoHoa/DuongDua/pitsGarageClosed.fbx
+  artifactKey: Guid(d9cf0bab0392e214080259dba1ac0f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/pitsGarageClosed.fbx using Guid(d9cf0bab0392e214080259dba1ac0f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f404dfb0050f3d64d77109aaef4ea1a2') in 0.040251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DoHoa/DuongDua/roadCornerLargerWall.fbx
+  artifactKey: Guid(d66aa8a9efbabd848974d5a1da6f5b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCornerLargerWall.fbx using Guid(d66aa8a9efbabd848974d5a1da6f5b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '094cf7e78fb6fb3be788b7519e50be1f') in 0.038059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DoHoa/DuongDua/roadRamp.fbx
+  artifactKey: Guid(dd96ec2d52cbfc04f99b71b7b9b68b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadRamp.fbx using Guid(dd96ec2d52cbfc04f99b71b7b9b68b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45949704a64ed5d374d23699f0325619') in 0.036809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DoHoa/DuongDua/roadCornerSmallWall.fbx
+  artifactKey: Guid(e222e17db781e0942a8a2756fc5c6455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/roadCornerSmallWall.fbx using Guid(e222e17db781e0942a8a2756fc5c6455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c777a157904b78de9929f0e7465d55e3') in 0.035881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DoHoa/DuongDua/grass.fbx
+  artifactKey: Guid(5745925f078b8834980d386b3d452c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/grass.fbx using Guid(5745925f078b8834980d386b3d452c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd94b9a2a99f3b714e158ca321e19159f') in 0.034483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DoHoa/DuongDua/flagTankco.fbx
+  artifactKey: Guid(d71d70856cd0d1644aeab94633bfc643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/flagTankco.fbx using Guid(d71d70856cd0d1644aeab94633bfc643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3aa78f73fa33e6e22c9f73409a155b08') in 0.044951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DoHoa/DuongDua/tentRoofDouble.fbx
+  artifactKey: Guid(cfa296b37459a3d4dbb24b19b7add513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DoHoa/DuongDua/tentRoofDouble.fbx using Guid(cfa296b37459a3d4dbb24b19b7add513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9493fd038ecaabb7e5e572de32b21864') in 0.032968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
